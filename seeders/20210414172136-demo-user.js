@@ -6,7 +6,7 @@ module.exports = {
      // Add seed commands here.
      //Example:
       await queryInterface.bulkInsert('Users', [{
-      firstName: 'John Doe', 
+      firstName: 'John', 
       lastName:  'Doe',
       email: 'johndoe@email.com',  
       createdAt: '2021-04-14 14:47:32.472305', 
