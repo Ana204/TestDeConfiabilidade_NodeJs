@@ -1,4 +1,5 @@
 'use strict';
+//Este é a nossa model
 const {
   Model
 } = require('sequelize');

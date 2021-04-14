@@ -1,5 +1,5 @@
 'use strict';
-
+//Este arquivo apenas gera a conexão como o banco
 const fs = require('fs');
 const path = require('path');
 const Sequelize = require('sequelize');
