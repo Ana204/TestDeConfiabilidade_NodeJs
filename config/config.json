@@ -1,22 +1,22 @@
 {
   "development": {
-    "username": "gomes",
-    "password": "123ana123",
-    "database":"teste",
+    "username": "root",
+    "password": "",
+    "database":"testelogin",
     "host": "localhost",
     "dialect": "mysql"
   },
   "test": {
-    "username": "gomes",
-    "password": "123ana123",
-    "database":"teste",
+    "username": "root",
+    "password": "",
+    "database":"testelogin",
     "host": "localhost",
     "dialect": "mysql"
   },
   "production": {
-    "username": "gomes",
-    "password": "123ana123",
-    "database":"teste",
+    "username": "root",
+    "password": "",
+    "database":"testelogin",
     "host": "localhost",
     "dialect": "mysql"
   }
