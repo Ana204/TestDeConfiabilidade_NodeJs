@@ -5,10 +5,10 @@
 
 module.exports = {
   // All imported modules in your tests should be mocked automatically
-     bail: true,
+  // automock: false,
 
   // Stop running tests after `n` failures
-  // bail: 0,
+  bail: true,
 
   // The directory where Jest should store its cached dependency information
   // cacheDirectory: "/tmp/jest_rs",
@@ -146,9 +146,9 @@ module.exports = {
   // testLocationInResults: false,
 
   // The glob patterns Jest uses to detect test files
-       testMatch: [
-       "**/__tests__/**/*.test.js?(x)",
-      ],
+  testMatch: [
+    "**/__tests__/**/*.test.js?(x)",
+  ],
 
   // An array of regexp pattern strings that are matched against all test paths, matched tests are skipped
   // testPathIgnorePatterns: [

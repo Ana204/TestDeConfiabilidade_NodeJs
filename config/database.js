@@ -1,8 +1,14 @@
-require('dotenv').config({
-    path: process.env.NODE_ENV == 'test' ? '.env.test' : '.env'
-  });
-  
-  
+const path = require('path');
+const { resolve } = require('path');
+
+//pegando os caminhos do arquivo .env e .env.test
+const mypath = resolve(path.resolve(), '../', '.env')
+//const mypath_test = resolve(path.resolve(), '../', '.env.test')
+
+//pegando os seus respectivo credenciais do env
+require("dotenv").config({
+  path: process.env.NODE_ENV === "test" ? ".env.test" : mypath });
+ 
   module.exports = {
     username: process.env.DB_USER,
     password: process.env.DB_PASS,
