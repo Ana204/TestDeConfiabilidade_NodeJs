@@ -5,7 +5,7 @@ class AuthenticationController {
 
         const { email, password } = req.body;
 
-
+        console.log(password)
         const user = await users.findOne({ where: { email } })
 
         //verificar se o user existe, se não existir retornar uma message

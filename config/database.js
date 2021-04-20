@@ -7,7 +7,7 @@ const mypath = resolve(path.resolve(), '../', '.env')
 
 //pegando os seus respectivo credenciais do env
 require("dotenv").config({
-  path: process.env.NODE_ENV === "test" ? ".env.test" : mypath });
+  path: process.env.NODE_ENV === "test" ? ".env.test" : ".env" });
  
   module.exports = {
     username: process.env.DB_USER,
